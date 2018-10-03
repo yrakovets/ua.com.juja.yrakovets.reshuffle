@@ -36,12 +36,6 @@ public class Reshuffle {
                             .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
                             .toString()
                 );
-
-                //rollback step
-                place--;
-                isBooked.put(charOrder.getLast(), false);
-                toSkip = charOrder.removeLast() + 1;
-                continue;
             }
             //try to get next step variant
             if(isBooked
