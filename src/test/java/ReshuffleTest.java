@@ -38,6 +38,7 @@ public class ReshuffleTest {
     }
 
 
+    //another comment
     @Test
     public void threeSymbolTest(){
         Reshuffle reshuffle = new Reshuffle("def");
