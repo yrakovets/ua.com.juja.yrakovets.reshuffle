@@ -18,6 +18,7 @@ public class ReshuffleTest {
 
     }
 
+    //another comment
     @Test
     public void oneSymbolTest(){
        Reshuffle reshuffle = new Reshuffle("a");
