@@ -14,6 +14,7 @@ public class Reshuffle {
                 .collect(Collectors.toList());
     }
 
+    //another comment
     public Set<String> getShuffles() {
         Set<String> result = new HashSet<>();
         LinkedList<Integer> charOrder = new LinkedList<>();
