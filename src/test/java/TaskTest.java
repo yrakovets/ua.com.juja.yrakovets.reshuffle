@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 //comment
+//comment3
 public class TaskTest {
     @Test
     public void taskTest(){
